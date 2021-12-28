@@ -47,6 +47,7 @@ a {
     text-decoration: none;
     color: white;
     padding: 10px;
+    transition-duration: 0.4s;
 }
 
 a:hover {
@@ -86,6 +87,12 @@ h1 {
     color: white;
     font-size: 18px;
     padding: 8px 32px;
+    transition-duration: 0.4s;
+}
+
+.first-main-left button:hover, .fourth-main-content button:hover {
+    background-color: white;
+    color: #585c63;
 }
 
 
@@ -126,6 +133,11 @@ h2 {
     border-radius: 10px;
     border: 6px solid #585c63;
     margin-top: 10px;
+    transition-duration: 0.4s;
+}
+
+.second-main-content img:hover {
+    opacity: 0.4;
 }
 
 .third-main {
@@ -182,7 +194,9 @@ h2 {
     border: 2px solid white;
     font-size: 18px;
     padding: 8px 32px;
+    transition-duration: 0.4s;
 }
+
 
 .footer {
     font-size: 18px;
