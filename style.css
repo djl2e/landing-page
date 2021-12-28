@@ -160,6 +160,7 @@ h2 {
 }
 
 .footer {
+    font-size: 18px;
     padding: 50px;
     display: flex;
     justify-content: center;
